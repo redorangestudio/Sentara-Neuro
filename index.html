@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html xmlns:fb="http://ogp.me/ns/fb#" prefix="og:http://ogp.me/ns#" class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html xmlns:fb="http://ogp.me/ns/fb#" prefix="og:http://ogp.me/ns#" class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html xmlns:fb="http://ogp.me/ns/fb#" prefix="og:http://ogp.me/ns#" class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html xmlns:fb="http://ogp.me/ns/fb#" prefix="og:http://ogp.me/ns#" lang="en">
+  <!--<![endif]-->
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Sentara Neurosurgery</title>
+    <meta name="copyright" content="Sentara Neurosurgery">
+    <meta name="CG4" content="WWW">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sentara Neurosurgery">
+    <meta property="og:description" content="Sentara Neurosurgery">
+    <meta property="og:image" content="xxx">
+    <meta property="og:url" content="xxx">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="xxxx">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="assets/public/styles/distillery_styles.css">
+    <link rel="stylesheet" type="text/css" href="assets/public/styles/lite-youtube-embed.css">
+    <style>
+.top{
+  color:white;
+  float: right;
+  font-weight: bold;
+  font-family: "Open Sans",sans-serif !important;
+  font-size: 22px !important;
+  font-weight: 700 !important;
+}
+
+
+a[href^="tel:"] {
+color:white !important;
+text-decoration:underline !important;
+}
+
+@media only screen and (max-width: 726px){
+.top {
+font-weight: 300 !important;
+font-size: 12px !important;
+top: -20px !important;
+display:inline-block !important;
+float: right !important;
+    padding-top: 10px !important;
+}
+}
+
+
+
+
+@media only screen and (max-width: 526px){
+.top {
+
+display: block !important;
+margin-left: auto !important;
+margin-right: auto !important;
+position: absolute;
+padding-top:30px !important;
+}
+.site-header__logo img{
+    padding-top:25px !important;
+
+}.site-header {
+    display: flex !important;
+  }
+}
+
+
+
+
+
+
+h3 {
+    font-size: 22px;
+    font-weight: 500;
+    /* color: #127eb1; */
+    color: #63696d; /* changed for v4 */
+    text-transform: none;
+    /*font-family: "Merriweather",sans-serif;*/
+    font-family: "Open Sans",sans-serif;
+}
+h3.sub {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #63696d;
+    text-transform: capitalize;
+    font-family: "Open Sans",sans-serif;
+}
+/*.site-header__logo {
+  width:225px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}*/
+.section--blue {
+  background-color: #d0e5ef;
+}
+.section--green {
+  background-color: #f2f9ec;
+}
+.hs-content__col--right {
+  background-color: #d0e5ef;
+  padding: 0;
+  font-size: 18px;
+}
+p.hs {
+  font-size: 13px;
+  line-height: 1.5;
+  font-family: "Open Sans",sans-serif;
+  color: #63696d;
+  margin-bottom: 25px;  /* originally 35px */
+  margin-top: 0px;
+}
+h2.hs {
+  font-size: 24px;
+  color: #127eb1;
+  line-height: 1.2em;
+  margin: 0;  /* added for v4 */
+}
+.section ul.hs {
+  /*padding: 0;*/
+  margin: 0;
+  /*margin-bottom: 35px;*/
+  line-height: 1.2;
+  font-size: 18px;
+  color: #707070;
+}
+.section ul li {
+    list-style: none;
+    margin-bottom: 5px; /* originally 15px */
+}
+.section ul.body-list--bullets li ul {
+    padding: 5px 18px 0px; /* originally 20px 20px 0px, and changed to 5px for v4 */
+    /* margin-bottom: 18px; */
+    margin: 0 0 10px 0; /* added for v4 */
+}
+@media (min-width: 959px){.section ul.hs {font-size: 18px;}}
+@media (min-width: 959px){h2.hs {font-size: 24px;}}
+@media (min-width: 959px){p.hs {font-size: 18px;}}
+@media (min-width: 959px){.hs-content__col--right{width:40%}}
+</style> </head>
+  <body>
+    <div id="app" class="global-wrapper">
+      <header class="site-header">
+        <div class="site-header__inner"> <span class="top">For more
+            information call <a href="tel:+1-800-736-8272" rel="nofollow">1-800-736-8272</a></span>
+          <div class="site-header__logo"> <a href="http://sentaraneurosurgery.com"><img
+                src="./assets/public/images/sentara-logo-white.png"
+                alt="Sentara"></a>
+          </div>
+        </div>
+      </header>
+      <section class="section section--nomargin">
+        <div class="section-inner" id="slider">
+          <div class="carousel-view"> <transition-group name="sliderTrans" class="carousel"
+              tag="div">
+              <div v-for="slide in slides" class="slide" :key="slide.id" v-if="slide === slides[0]">
+                <div class="slide__image" :style="'background-image:url('+slide.img+');'"></div>
+              </div>
+            </transition-group> </div>
+          <div class="carousel-controls"> <a href="" v-for="slide in slides.length"
+              :key="slide"
+              @click.prevent="goToSlide(slide)"
+              class="carousel-control"
+              :class="{'carousel-control--active' : slides[0].id === slide}">
+            </a> </div>
+          <div class="carousel-control__direction carousel-control__direction--next"
+            @click.prevent="next()">
+            <div class="carousel-control__arrow carousel-control__arrow--next"></div>
+          </div>
+          <div class="carousel-control__direction carousel-control__direction--previous"
+            @click.prevent="previous()">
+            <div class="carousel-control__arrow carousel-control__arrow--previous"></div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="section-inner">
+          <div class="content">
+            <div class="content__col content__col--left">
+              <h2>Sentara Neurosurgery</h2>
+              <h3>Brain and Spine Experts</h3>
+              <p>Sentara Neurosciences offers a network of neurosurgeons who are
+                experts at treating a variety of conditions from epilepsy and
+                tremors to complex brain cancers. Our multidisciplinary teams
+                develop a treatment plan that best suits your individual needs.</p>
+              <h3>Our program includes:</h3>
+              <ul class="body-list--bullets hs">
+                <li>Epilepsy Surgery</li>
+                <li>Functional Neurosurgery
+                  <ul class="hs">
+                    <li>Deep Brain Stimulation</li>
+                  </ul>
+                </li>
+                <li>Neuro-oncology
+                  <ul class="hs">
+                    <li>Brain and Spinal Tumors</li>
+                  </ul>
+                </li>
+                <li>Neurovascular Surgery
+                  <ul class="hs">
+                    <li>Stroke and Brain Aneurysm</li>
+                  </ul>
+                </li>
+                <li>Spine Neurosurgery </li>
+                <li>Neurotrauma</li>
+              </ul>
+              &nbsp; &nbsp; &nbsp;
+             <h3>Trust Sentara to Provide:</h3>
+             <!--<h3 class="sub">Expertise and Collaboration</h3>
+                        <p>Our surgeons have unique expertise, providing patients with the most advanced care possible. We take a unique team approach to care. Neurosurgeons work side by side with world-class specialists, neuropsychologists, nutritionists and physical therapists.</p>                        <h3 class="sub">High-Tech Facilities</h3>                        <p>The Sentara Neurosciences program offers dedicated operating suites with the latest technology, a neurosciences ICU and a comprehensive surgical program. We focus on minimally invasive techniques using the newest technology. Sentara has the only intraoperative MRI in Hampton Roads. The iMRI allows for real-time imaging during surgery, which means better patient outcomes.</p>                        <h3 class="sub">Research</h3>                        <p>Our leading-edge research, <a href="https://www.sentara.com/hampton-roads-virginia/medicalservices/services/neurosciences/services/clinical-trials.aspx">clinical trials</a>, and patient-centered outcomes distinguish us. We are committed to improving the lives of patients and working toward breakthrough discoveries. Our doctors collaborate with Eastern Virginia Medical School and other specialists in diseases of the brain and spine.</p>                      -->
+              <div style="width: 100%">
+                <div style="float: left;"><img src="assets/public/images/icon_expertise.png"></div>
+                <div style="float: right; width: 87%;">
+                  <h3 class="sub">Expertise and Collaboration</h3>
+                  <p style="margin-top: 5px;">Our surgeons have unique
+                    expertise, providing patients with the most advanced care
+                    possible. We take a unique team approach to care.
+                    Neurosurgeons work side by side with world-class
+                    specialists, neuropsychologists, nutritionists and physical
+                    therapists.</p>
+                </div>
+              </div>
+              <div style="clear: both;"></div>
+              <div style="width: 100%">
+                <div style="float: left;"><img src="assets/public/images/icon_hightech.png"></div>
+                <div style="float: right; width: 87%;">
+                  <h3 class="sub">High-Tech Facilities</h3>
+                  <p style="margin-top: 5px;">The Sentara Neurosciences program
+                    offers dedicated operating suites with the latest
+                    technology, a neurosciences ICU and a comprehensive surgical
+                    program. We focus on minimally invasive techniques using the
+                    newest technology. Sentara has the only intraoperative MRI
+                    in Hampton Roads. The iMRI allows for real-time imaging
+                    during surgery, which means better patient outcomes.</p>
+                </div>
+              </div>
+              <div style="clear: both;"></div>
+              <div style="width: 100%">
+                <div style="float: left;"><img src="assets/public/images/icon_research.png"></div>
+                <div style="float: right; width: 87%;">
+                  <h3 class="sub">Research</h3>
+                  <p style="margin-top: 5px;">Our leading-edge research,
+                    clinical trials, and patient-centered outcomes distinguish
+                    us. We are committed to improving the lives of patients and
+                    working toward breakthrough discoveries. Our doctors
+                    collaborate with Eastern Virginia Medical School and other
+                    specialists in diseases of the brain and spine.</p>
+                  </div>
+              </div>
+            </div>
+            <div style="clear: both;"></div>
+            <div class="content__col content__col--right" id="form">
+              <h5>Request More Information</h5>
+              <p>For more information about Sentara Neurosurgery, please
+                complete the form below:</p>
+<script type="text/javascript" src="https://sentara.formstack.com/forms/js.php/neurosurgery_request_form"></script><noscript><a href="https://sentara.formstack.com/forms/neurosurgery_request_form" title="Online Form">Online Form - Neurosurgery - Request More Information</a></noscript><div style="text-align:right; font-size:x-small;"><a href="http://www.formstack.com?utm_source=jsembed&utm_medium=product&utm_campaign=product+branding&fa=h,3100532"</a></div>
+
+             </a></section>
+
+
+
+ </div>
+
+             <section class="section">
+               <div class="section-inner" id="video">
+                 <h2 class="align-center">iMRI: Real-time Imaging Leads to Better
+                   Surgical Outcomes</h2>
+                 <div class="video__poster">
+                   <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://www.youtube.com/embed/oFAFPbd8ARY?showinfo=0&amp;controls=0&amp;autohide=1&amp;"
+                       style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                       webkitallowfullscreen=""
+                       mozallowfullscreen=""
+                       allowfullscreen=""
+                       frameborder="0"></iframe></div>
+                   <script src="https://player.vimeo.com/api/player.js"></script> </div>
+                 <!--<div class="video__poster">
+                       <div class="youtube-player" data-id="oFAFPbd8ARY"></div>                </div>-->
+               </div>
+             </section>
+             <section class="section section--green section--full-width">
+               <div class="section-inner">
+                 <h2 class="align-center">Sentara Neurosurgery Locations</h2>
+                 <div class="locations">
+                   <div class="location">
+                     <div class="location__image" style="background-image:url('./assets/public/images/photo_norfolkgeneral.jpg');"></div>
+                     <div class="location__title"> Sentara Norfolk General Hospital </div>
+                     <div class="location__city"> Norfolk, VA </div>
+                   </div>
+                   <div class="location">
+                     <div class="location__image" style="background-image:url('./assets/public/images/photo_vabeach.jpg');"></div>
+                     <div class="location__title"> Sentara Virginia Beach General
+                       Hospital </div>
+                     <div class="location__city"> Virginia Beach, VA </div>
+                   </div>
+                   <div class="location">
+                     <div class="location__image" style="background-image:url('./assets/public/images/photo_princessanne.jpg');"></div>
+                     <div class="location__title"> Sentara Princess Anne Hospital </div>
+                     <div class="location__city"> Virginia Beach, VA </div>
+                   </div>
+                 </div>
+               </div>
+             </section>
+             <!--<section class="section" id="quotes">
+                 <div class="section-inner">                <transition-group name="sliderTrans" class='quotes' tag="div">                    <div class="quote" v-for="(quote, key) in quotes" :key="quote.id" v-if="quote === quotes[0]" :class="{'quote--active' :  quote === quotes[0]}" v-on:mouseover="stopRotation" v-on:mouseout="startRotation">                        &ldquo;<span v-html="quote.content"></span>&rdquo;                    </div>                </transition-group>            </div>        </section>-->
+             <!--<section class="section">
+                 <div class="section-inner align-center">                <p>Fill out the form above to begin your journey to heart health and recovery.</p>                <a href="#form" class="sentara-button js-smooth-scroll">Get More Information</a>            </div>        </section>-->
+           </a>
+           <footer class="site-footer"><a href="http://www.formstack.com?utm_source=jsembed&amp;utm_medium=product&amp;utm_campaign=product+branding&amp;fa=h,3100532"
+               title="Powered by Formstack">
+               <div class="site-footer__logo"> <img src="./assets/public/images/sentara-logo.png"
+                   alt="Sentara">
+               </div>
+               <div> Your community, not-for-profit health partner. Copyright ©2018
+                 Sentara Healthcare. All Rights Reserved. </div>
+             </a>
+             <div><a href="http://www.formstack.com?utm_source=jsembed&amp;utm_medium=product&amp;utm_campaign=product+branding&amp;fa=h,3100532"
+                 title="Powered by Formstack">
+               </a><a href="https://www.sentara.com/aboutus/about-sentara.aspx" target="_blank">About
+                 Sentara Healthcare</a> | <a href="https://www.sentara.com/policies-and-agreements/privacy-policy.aspx"
+                 target="_blank">Privacy
+                 Policy</a> | <a href="https://www.sentara.com/policies-and-agreements/user-agreement.aspx"
+                 target="_blank">User
+                 Agreement</a> </div>
+           </footer>
+         </div>
+         <!-- Global Wrap -->
+         <!-- Eruptr Dynamic Number Insertion -->
+         <script type="text/javascript" src="//cdn.calltrk.com/companies/287953267/02939827f144d383655b/12/swap.js"></script>
+         <!-- <script src="assets/public/scripts/vue.js" charset="utf-8"></script> -->
+         <script src="assets/public/scripts/jquery.min.js" charset="utf-8"></script>
+         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/0.10.0/lodash.min.js"></script>
+         <!-- <script src="assets/public/scripts/lodash.js" charset="utf-8"></script> -->
+         <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+         <!-- <script src="assets/public/scripts/vue.js" charset="utf-8"></script> -->
+         <script src="assets/public/scripts/distillery_scripts.js" charset="utf-8"></script>
+         <script>
+
+         /* Light YouTube Embeds by @labnol */
+         /* Web: http://labnol.org/?p=27941 */
+
+         document.addEventListener("DOMContentLoaded",
+             function() {
+                 var div, n,
+                     v = document.getElementsByClassName("youtube-player");
+                 for (n = 0; n < v.length; n++) {
+                     div = document.createElement("div");
+                     div.setAttribute("data-id", v[n].dataset.id);
+                     div.innerHTML = labnolThumb(v[n].dataset.id);
+                     div.onclick = labnolIframe;
+                     v[n].appendChild(div);
+                 }
+             });
+
+         function labnolThumb(id) {
+             var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
+                 play = '<div class="play"></div>';
+             return thumb.replace("ID", id) + play;
+         }
+
+         function labnolIframe() {
+             var iframe = document.createElement("iframe");
+             var embed = "https://www.youtube.com/embed/ID?autoplay=1";
+             iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+             iframe.setAttribute("frameborder", "0");
+             iframe.setAttribute("allowfullscreen", "1");
+             this.parentNode.replaceChild(iframe, this);
+         }
+
+     </script> <style media="screen">
+             .fsFieldFocused {
+
+             }
+             .fsFieldFocused {
+                 background-color: #ffffa6;
+                 background-color:none !important;
+                 box-shadow: none !important;
+             }
+             .fsPreviousButton, .fsSubmitButton, .fsNextButton {
+                 background-color: #63696d !important;
+                 border-radius:3px !important;
+                 transition: all 275ms !important;
+             }
+         </style>
+       </body>
+     </html>
